@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: rgba(105, 105, 105, 0.199);
+
+    
+}
+.container{
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 600px;
+    padding: 40px;
+    border-radius: 5px;
+    position: relative;
+}
+.container .Nav{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .navul ul{
+    display: flex;
+
+}
+.container .navul ul li{
+    margin: 0px 15px;
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+}
+.container .navul ul li.active{
+    border-bottom: 3px solid black;
+}
+
+.container .Nav .searchbar{
+    position: relative;
+}
+.container .Nav .searchbar input{
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid dimgray;
+    position: relative;
+}
+.container .Nav .searchbar i.fa-magnifying-glass{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.container .usercontainer{
+    margin:30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.container .usercontainer .user{
+    background-color: rgb(253, 252, 252);
+    width: 280px;
+    height: 180px;
+    padding: 15px;
+    display: flex;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border-radius: 10px;
+    margin: 7px 7px;
+}
+.container .usercontainer .user .imgcontainer1 {
+    width: 95px;
+    height: 95px;
+    background-image: url('img1.avif');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.container .usercontainer .user .imgcontainer2 {
+    width: 95px;
+    height: 95px;
+    background-image: url('img2.avif');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.container .usercontainer .user .imgcontainer3 {
+    width: 95px;
+    height: 95px;
+    background-image: url('img3.avif');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.container .usercontainer .user .imgcontainer4 {
+    width: 95px;
+    height: 95px;
+    background-image: url('img4.avif');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+.container .cross{
+    position: absolute;
+    right: 60px;
+    
+}
+.container .cross .fa-xmark{
+    display: none;
+}
+.container .usercontainer .user .imgcontainer5 {
+    width: 95px;
+    height: 95px;
+    background-image: url('img5.avif');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.container .usercontainer .user .imgcontainer6 {
+    width: 95px;
+    height: 95px;
+    background-image: url('img6.avif');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.container .usercontainer .user{
+    display: flex;
+    
+}
+.container .usercontainer .user:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transform: scale(1.05);
+    border: 1px solid rgba(105, 105, 105, 0.247);
+    transition: all 0.2s ease-in-out;
+    
+}
+.container .usercontainer .user .data{
+    margin-top: 10px;
+    width: 140px;
+    margin-left: 10px;
+}
+.container .usercontainer .user .data h5{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.container .usercontainer .user .data .span{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.container .usercontainer .user .data h4{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+
+.container .usercontainer .user .data .span p{
+    font-size: 10px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.137) 0px 5px 15px; 
+    margin:2px;
+    padding: 2px;
+    border-radius: 5px;
+}

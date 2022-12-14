@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Find</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h2>Users</h2>
+        <div class="Nav">
+            <div class="searchbar">
+                <input type="text" placeholder="Search Users" class="username">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="navul">
+                <ul class="mynav">
+                    <li>Reputation</li>
+                    <li class="tab NewUser active" data-index="0">New Users</li>
+                    <li class="tab Voters" data-index="1">Voters</li>
+                    <li class="tab  Editors" data-index="2">Editors</li>
+                    <li class="tab Moderators" data-index="3">Moderators</li>
+                </ul>
+            </div>
+        </div>
+        <div class="cross">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <div class="usercontainer">
+            <div class="user" data-Name="lelahnichols" data-editors="1" >
+                <div class="imgcontainer1">
+                </div>
+                <div class="data">
+                    <h4>Lelah Nichols</h4>
+                    <h5>Troy, Me</h5>
+                    <div class="span">
+                        <p>clothes</p>
+                        <p>winter</p>
+                        <p>sky</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="user" data-Name="jesusweiss" data-editors="1">
+                <div class="imgcontainer2">
+                </div>
+                <div class="data">
+                    <h4>Jesus  Weiss</h4>
+                    <h5>Fort Worth, TX</h5>
+                    <div class="span">
+                        <p>Headset</p>
+                        <p>Gadget.</p>
+                        <p>speed.</p>
+                        <p>winter.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="user" data-Name="annierice" data-editors="1" data-Moderators="1">
+                <div class="imgcontainer3">
+                </div>
+                <div class="data">
+                    <h4>Annie Rice</h4>
+                    <h5>Austin, TX</h5>
+                    <div class="span">
+                        <p>Road.</p>
+                        <p>mountain.</p>
+                        <p>trip.</p>
+                        <p>earth.</p>
+                        <p>nature.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="user" data-Name="robertbrowser" data-Voters="1">
+                <div class="imgcontainer4">
+                </div>
+                <div class="data">
+                    <h4>Robert Browser</h4>
+                    <h5>Cincinnati, Me</h5>
+                    <div class="span">
+                        <p>Maintenance.</p>
+                        <p>repair.</p>
+                        <p>gears.</p>
+                        <p>frames.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="user" data-Name="ammycampbell" data-Voters="1">
+                <div class="imgcontainer5">
+                </div>
+                <div class="data">
+                    <h4>Ammy Campbell</h4>
+                    <h5>Warrior, Me</h5>
+                    <div class="span">
+                        <p>Music.</p>
+                        <p>darks.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="user" data-Name="lelahnichols" data-Voters="1">
+                <div class="imgcontainer6">
+                </div>
+                <div class="data">
+                    <h4>Lelah Nichols</h4>
+                    <p>Troy, Me</p>
+                    <div class="span">
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
